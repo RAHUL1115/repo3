@@ -1,0 +1,22 @@
+{
+  "name": "@rahul1115/repo3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RAHUL1115/repo3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RAHUL1115/repo3/issues"
+  },
+  "homepage": "https://github.com/RAHUL1115/repo3#readme",
+  "dependencies": {
+    "@rahul1115/repo1": "^1.0.0"
+  }
+}
