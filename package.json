@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/RAHUL1115/repo3#readme",
   "dependencies": {
-    "@rahul1115/repo1": "^1.0.0"
+    "@rahul1115/repo1": "^1.0.1"
   }
 }
