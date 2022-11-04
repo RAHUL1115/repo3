@@ -1,10 +1,10 @@
 {
   "name": "@rahul1115/repo3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "update" : "",
+    "update": "",
     "start": "npm cache clean -force && npm install && npm update && node index.js"
   },
   "repository": {
