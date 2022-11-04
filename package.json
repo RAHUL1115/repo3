@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm install && npm update && node index.js"
+    "update" : "",
+    "start": "npm cache clean -force && npm install && npm update && node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,6 @@
   },
   "homepage": "https://github.com/RAHUL1115/repo3#readme",
   "dependencies": {
-    "@rahul1115/repo1": "^1.0.1"
+    "@rahul1115/repo1": "*"
   }
 }
