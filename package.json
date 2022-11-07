@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "update": "git commit -am 'pre relese' && npm version patch && npm publish --access public && git push origin master && cd ./../repo1 && npm run update",
-    "start": "npm cache clean -force && npm install && npm update && node index.js"
+    "preinstall": "npm cache clean -force && npm update",
+    "postpublish": "git clone https://github.com/rahul1115/repo1.git ./.tracker/ && cd ./.tracker/ && npm install && cd ./../ && node ./.tracker/publish.js",
+    "test": "git clone https://github.com/rahul1115/repo1.git ./.tracker/ && cd ./.tracker/ && npm install && cd ./../ && node ./.tracker/publish.js"
   },
   "repository": {
     "type": "git",
