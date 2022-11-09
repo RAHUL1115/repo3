@@ -1,6 +1,2 @@
-// require repo1
-const repo = require('@rahul1115/repo1')
-
-
-// console log the contents
-console.log(JSON.stringify(repo));
+const packageJSON = require('./package.json')
+console.log(`${packageJSON.name}:${packageJSON.version}`)
